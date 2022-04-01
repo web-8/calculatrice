@@ -1,0 +1,30 @@
+body{
+    background-color:rgb(171, 171, 248);
+    display: flex;
+    justify-content: center;
+}
+.container{
+    background-color: black;
+    width: 50%;
+    /* height: 800px; */
+    display: grid;
+    grid-template-columns: repeat(4,130px);
+    grid-template-rows: repeat(6,130px);
+    padding: 10px;
+    justify-content: center;
+}
+button{
+    background-color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+}
+#afficher{
+    background-color: white;
+    border: solid 3px black;
+    grid-column: 1/5;
+    display: flex;
+    justify-self:  center;
+    width: 100%;
+    font-size: 500%;
+}
